@@ -12,7 +12,7 @@ export const DietFoods = [
             "akşamDetay": "Kinoa bitkisel protein ve lif içerir. Yoğurt ise probiyotik destek sağlar, akşam için hafif ve dengelidir."
         },
         "kalori": 1200,
-        "fiyat": "249₺",
+        "fiyat": "1,249₺",
         "açıklama": "Diyet yapmaya yeni başlayanlar için öğünler içerir.",
         "images": "https://i.pinimg.com/736x/6a/bf/58/6abf58e6c1c7a8cf3fbdc2a2401e4f6b.jpg"
     },
@@ -29,7 +29,7 @@ export const DietFoods = [
             "akşamDetay": "Nohut proteince zengin, sebzeler vitamin desteği sağlar. Kahverengi pirinç kan şekerini dengeler."
         },
         "kalori": 1400,
-        "fiyat": "279₺",
+        "fiyat": "1,279₺",
         "açıklama": "Tamamen bitkisel içerikli, enerji verici menüler içerir.",
         "images": "https://i.pinimg.com/736x/db/8d/d6/db8dd62a95a08e10dff18db6d85fe1be.jpg"
     },
@@ -46,7 +46,7 @@ export const DietFoods = [
             "akşamDetay": "Omega-3 içeren somon kalp dostudur. Brokoli bağışıklık, yoğurt sindirim sistemini destekler."
         },
         "kalori": 1600,
-        "fiyat": "299₺",
+        "fiyat": "2,299₺",
         "açıklama": "Kas gelişimini destekleyen yüksek proteinli içerikler.",
         "images": "https://i.pinimg.com/736x/5a/aa/9b/5aaa9b1f650f57a3bb989f7f7693fac6.jpg"
     },
@@ -63,7 +63,7 @@ export const DietFoods = [
             "akşamDetay": "Sebzeler lifli ve düşük kalorilidir. Humus nohuttan gelir, sağlıklı karbonhidrat ve protein sunar."
         },
         "kalori": 1300,
-        "fiyat": "265₺",
+        "fiyat": "1,265₺",
         "açıklama": "Glutensiz beslenen bireyler için dengeli menüler.",
         "images": "https://i.pinimg.com/736x/ea/8b/84/ea8b84c509634e7c915194b8d973dc5e.jpg"
 
@@ -81,7 +81,7 @@ export const DietFoods = [
             "akşamDetay": "Somon zengin omega-3 içerir, kabak spagetti klasik makarnaya düşük karbonhidratlı alternatif sunar."
         },
         "kalori": 1700,
-        "fiyat": "315₺",
+        "fiyat": "1,315₺",
         "açıklama": "Karbonhidratı minimumda tutarak yağ yakımını hızlandırır.",
         "images": "https://i.pinimg.com/736x/0b/bf/72/0bbf72921eea5d92865d07f3fc21bdbc.jpg"
     },
@@ -98,7 +98,7 @@ export const DietFoods = [
             "akşamDetay": "Hafif ama doyurucu akşam öğünü. Kinoa bitkisel protein ve lif içerir."
         },
         "kalori": 1100,
-        "fiyat": "239₺",
+        "fiyat": "1,239₺",
         "açıklama": "Yoğun ofis temposu için hafif, detoks etkili menüler.",
         "images": "https://i.pinimg.com/736x/ea/20/c5/ea20c542abc20f1a2cb6ef2990e7b9ad.jpg"
     },
@@ -115,7 +115,7 @@ export const DietFoods = [
             "akşamDetay": "Tavuk kas gelişimini destekler. Kefir probiyotik etkisiyle sindirimi düzenler."
         },
         "kalori": 1800,
-        "fiyat": "325₺",
+        "fiyat": "2,325₺",
         "açıklama": "Aktif spor yapanlara özel karbonhidrat & protein dengeli içerik.",
         "images": "https://i.pinimg.com/736x/f0/ce/c6/f0cec64684ccd0eb51dbc7f3b20ffb00.jpg"
     },
@@ -132,7 +132,7 @@ export const DietFoods = [
             "akşamDetay": "Sebzeler lif ve su içerir, ayran ise protein ve sıvı desteği sunar."
         },
         "kalori": 1000,
-        "fiyat": "225₺",
+        "fiyat": "1,225₺",
         "açıklama": "Zayıflama sürecine hızlı başlangıç için ideal düşük kalorili paket.",
         "images": "https://i.pinimg.com/736x/6b/30/8b/6b308badbc88088043e35c4ebe8e2f56.jpg"
     }

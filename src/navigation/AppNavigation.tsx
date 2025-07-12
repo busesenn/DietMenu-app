@@ -3,11 +3,10 @@ import ProductsScreen from '../pages/ProductsScreen';
 import DetailScreen from '../pages/DetailScreen';
 import CartScreen from '../pages/CartScreen';
 import { AuthNavigation } from './AuthNavigation';
+import FirstPage from '../pages/FirstPage';
 
 const Stack = createNativeStackNavigator();
-import { createDrawerNavigator } from '@react-navigation/drawer';
 
-const Drawer = createDrawerNavigator();
 
 
 export function AppNavigation() {
@@ -20,7 +19,10 @@ export function AppNavigation() {
             <Stack.Screen name="DetailScreen" component={DetailScreen} options={{
                 headerShown: true
             }} />
-            <Stack.Screen name="AuthNavigation" component={AuthNavigation} />
+            <Stack.Screen name="AuthNavigation" component={AuthNavigation} options={{
+                headerShown: false
+            }} />
+            <Stack.Screen name="FirstPage" component={FirstPage} />
         </Stack.Navigator>
     );
 }

@@ -2,6 +2,7 @@ import { createMaterialTopTabNavigator } from '@react-navigation/material-top-ta
 import LoginScreen from '../Auth/LoginScreen';
 import RegisterScreen from '../Auth/RegisterScreen';
 import { Colors } from '../Colors';
+import { NavigationContainer } from '@react-navigation/native';
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -11,7 +12,7 @@ export function AuthNavigation() {
             screenOptions={{
                 tabBarStyle: {
                     backgroundColor: Colors.mainColor,
-                    height: 60,
+                    height: 50,
                     justifyContent: "center",
                     alignItems: "center"
                 },

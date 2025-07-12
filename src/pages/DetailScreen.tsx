@@ -30,7 +30,6 @@ export default function DetailScreen() {
         } else {
             dispatch(addToCart(selectedFoods))
             Alert.alert("Seçilen paket menüsü sepetinize eklendi")
-            navigation.navigate("CartScreen")
         }
     }
 

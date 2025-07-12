@@ -3,9 +3,11 @@ import { createSlice } from "@reduxjs/toolkit";
 
 interface CartState {
     cart: any[];
+    totalAmount: number
 }
 const initialState: CartState = {
     cart: [],
+    totalAmount: 0
 }
 
 export const CartSlice = createSlice({
@@ -18,11 +20,12 @@ export const CartSlice = createSlice({
             }
         },
         removeFromCart: (state, action) => {
-            state.cart = state.cart.filter(item => item.id !== action.payload.id)
+            state.cart = state.cart.filter(item => item.id !== action.payload)
         },
         clearCart: (state) => {
             state.cart = []
-        }
+        },
+
     }
 })
 
